@@ -41,7 +41,7 @@ jxRequirements:
       enabled: false
       production: false
   repository: nexus
-  secretStorage: vault
+  secretStorage: secretsManager
   vault: {}
   webhook: lighthouse
 jxRequirementsIngressExternalDNS:
@@ -53,4 +53,4 @@ jxRequirementsKuberhealthy:
 jxRequirementsTLSCheck:
   enabled: false
 jxRequirementsVault:
-  enabled: true
+  enabled: false
